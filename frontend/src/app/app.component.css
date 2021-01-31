@@ -1,0 +1,11 @@
+.container-one {
+    height: 63.3%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+ 
+.sidenav-content-one {
+    display: flex;
+    height: 63.3%;
+    align-items: center;
+    justify-content: center;
+  }

@@ -1,0 +1,23 @@
+<mat-toolbar>
+  <div id="toolbar">
+  <span>Pangolin - Social Network for the outstanding students</span>
+  </div>
+</mat-toolbar>
+<mat-drawer-container class="container-one" autosize>
+  <mat-drawer #drawer class="sidenav-one" mode="side">
+    <div>
+      <img [src]="pangoimage"></div>
+  </mat-drawer>
+
+  <div class="sidenav-content-one">
+      <button type="button" mat-raised-button (click)="drawer.toggle()" color="warn">
+      <p>
+        Click at your own risk
+      </p>
+      </button>
+  </div>
+</mat-drawer-container>
+
+<div class="main-content">
+  <router-outlet></router-outlet>
+</div>
